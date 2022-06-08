@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Введение в JavaScript</title>
+    <link href="/JavaScript/NewStyle.css" rel="stylesheet">
+</head>
+<body>
+<div class="mainpage">
+    <!-- Верхнее меню -->
+    <div class="top-menu">
+        <a class="courses" href="#">HTML</a>
+        <a class="courses" href="#">CSS</a>
+        <a class="courses-now" href="Главная.html">JavaScript</a>
+        <a class="courses" href="#">SQL</a>
+        <a class="courses" href="#">PYTHON</a>
+        <a class="courses" href="#">PHP</a>
+        <a class="courses" href="#">BOOTSTRAP</a>
+        <a class="courses" href="#">HOW TO</a>
+        <a class="courses" href="#">JAVA</a>
+        <a class="courses" href="#">JQUERY</a>
+        <a class="courses" href="#">C</a>
+        <a class="courses" href="#">C++</a>
+        <a class="courses" href="#">C#</a>
+    </div>
+    <!-- Меню навигации -->
+    <div class="all-pages">
+        <p class="article">Учебник по JS</p>
+        <a class="nav" href="Главная.html">Главная</a>
+        <p class="now">JS Введение</p>
+        <a class="nav" href="JS%20куда.html">JS куда</a>
+        <a class="nav" href="#">Вывод JS</a>
+        <a class="nav" href="#">Заявления JS</a>
+        <a class="nav" href="#">JS-синтаксис</a>
+        <a class="nav" href="#">JS-комментарии</a>
+        <a class="nav" href="#">JS-переменные</a>
+        <a class="nav" href="#">JS let</a>
+        <a class="nav" href="#">Константа JS</a>
+        <a class="nav" href="#">JS-Операторы</a>
+        <a class="nav" href="#">JS-арифметика</a>
+        <a class="nav" href="#">Назначение JS</a>
+        <a class="nav" href="#">JS-типы данных</a>
+        <a class="nav" href="#">JS-функции</a>
+        <a class="nav" href="#">JS-объекты</a>
+        <a class="nav" href="#">JS-события</a>
+        <a class="nav" href="#">JS-строки</a>
+        <a class="nav" href="#">Строковые методы JS</a>
+        <a class="nav" href="#">Поиск строки JS</a>
+        <a class="nav" href="#">Шаблоны строк JS</a>
+        <a class="nav" href="#">JS-номера</a>
+        <a class="nav" href="#">Методы номеров JS</a>
+        <a class="nav" href="#">JS-масивы</a>
+        <a class="nav" href="#">Методы массива JS</a>
+        <a class="nav" href="#">Сортировка массива JS</a>
+        <a class="nav" href="#">Итерация массива JS</a>
+        <a class="nav" href="#">Константа массива JS</a>
+    </div>
+    <!-- Центральная часть -->
+    <div class="centre">
+        <div class="block1">
+            <h1 class="header">Введение в JavaScript</h1>
+            <div class="navigation">
+                <div class="left">
+                    <a href="Главная.html" class="pages">❮ Предыдущая</a>
+                </div>
+                <div class="right">
+                    <a href="JS%20куда.html" class="pages">Следующая ❯</a>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <p class="retreat">Эта страница содержит несколько примеров того, что может сделать JavaScript.</p>
+        </div>
+        <div class="block3">
+            <h2 class="parahgrafs">JavaScript Может изменить HTML-контент</h2>
+            <p class="retreat">Одним из многих методов HTML-методов JavaScript является <span class="red">getElementById()</span>.</p>
+            <p class="retreat">В приведенном ниже примере код находит элемент HTML (с id="demo") и изменяет содержимое элемента (innerHTML) на "Hello JavaScript":</p>
+            <div class="example1">
+                <p class="parahgrafs">Пример </p>
+                <p class="JavaScript">document.getElementById(<span class="green">"demo"</span>).innerHTML = <span class="green">"Hello JavaScript"</span>;</p>
+                <div class="left">
+                    <a href="#" class="pages">Попробуй сам</a>
+                </div>
+            </div>
+        </div>
+        <div class="block4">
+            <p class="yellow">JavaScript принимает как двойные, так и одинарные ковычки:</p>
+        </div>
+        <div class="block5">
+            <div class="example1">
+                <p class="parahgrafs">Пример</p>
+                <p class="JavaScript">document.getElementById(<span class="green">'demo'</span>).innerHTML = <span class="green">'Hello JavaScript'</span>;</p>
+                <div class="left">
+                    <a href="#" class="pages">Попробуй сам</a>
+                </div>
+            </div>
+        </div>
+        <div class="block6">
+            <h2 class="parahgrafs">JavaScript может изменять значения атрибутов HTML</h2>
+            <p class="retreat">В этом примере JavaScript изменяет значение <span class="red">src</span> атрибута (source) <span class="red">&ltimg&gt</span> тега:</p>
+            <div class="example2">
+                <p class="parahgrafs">Лампочка</p>
+                <div class="lamp">
+                    <div class="center">
+                        <button class=left-button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+                        <img src="pic_bulboff.gif" alt="lampoff" id="myImage">
+                        <button class="right-button" onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+                    </div>
+                </div>
+                <div class="left">
+                    <a href="#" id="pages1" class="pages">Попробуй сам</a>
+                </div>
+            </div>
+        </div>
+        <div class="block7">
+            <h2 class="parahgrafs">JavaScript может изменять стили HTML (CSS)</h2>
+            <p class="retreat">Изменение стиля элемента HTML - это вариант изменения атрибута HTML:</p>
+            <div class="example1">
+                <p class="parahgrafs">Пример</p>
+                <p class="JavaScript">document.getElementById(<span class="green">"demo"</span>).style.fontSize = "35px";</p>
+                <div class="left">
+                    <a href="#" class="pages">Попробуй сам</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
