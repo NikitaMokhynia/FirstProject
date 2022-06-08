@@ -1,0 +1,261 @@
+/*Для компа*/
+@media screen and (min-width: 1000px) {
+    /*Центральная часть*/
+    /*Применимо для всего*/
+    body {
+        background-color: #1d2a35;
+    }
+    h2.parahgrafs {
+        color: #ffffff;
+        font-size: 2vw;
+    }
+    span.red {
+        color: #ff9999;
+    }
+
+    p.retreat {
+        color: #ffffff;
+        text-align: justify;
+        font-size: 1.2vw;
+    }
+
+    p.parahgrafs {
+        color: #ffffff;
+        font-size: 1.7vw;
+    }
+
+    .JavaScript {
+        padding-left: 1vw;
+        background-color: #1d2a35;
+        color: #ffffff;
+        height: 2vw;
+        line-height: 2vw;
+        font-size: 1vw;
+    }
+
+    .green {
+        color: #04AA6D;
+    }
+
+    a.pages {
+        text-decoration: none;
+        color: #ffffff;
+        display: block;
+        border: 0.1vw solid #04AA6D;
+        border-radius: 1vw;
+        width: 15vw;
+        height: 2.5vw;
+        background-color: #04AA6D;
+        text-align: center;
+        line-height: 2.5vw;
+        text-shadow: 0.1vw 0.1vw 0 #444;
+    }
+
+    .pages {
+        font-size: 1.5vw;
+    }
+
+    a.pages:hover {
+        background-color: #4CAF50;
+    }
+    .centre {
+        padding-top: 2vw;
+        border-right: 0.1vw solid #cccccc;
+    }
+    /*Первый блок*/
+    h1 {
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: left;
+        margin-block-start: 0;
+        margin-block-end: 1.5vw;
+        font-weight: inherit;
+    }
+
+    div.centre {
+        width: 70vw;
+        margin-left: 15vw;
+        background-color: #1d2a35;
+    }
+
+    .block1 {
+        height: 8vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Source sans pro', sans-serif;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    /*Второй блок*/
+    .block2 {
+        font-size: 1vw;
+        height: 7vw;
+        line-height: 7vw;
+        background-color: rgb(21, 32, 43);
+        padding-left: 1vw;
+    }
+
+    /*Третий блок*/
+    .block3 {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        height: 27vw;
+    }
+
+    div.example1 {
+        background-color: #38444d;
+        border: 0.1vw solid #1d2a35;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 0.5vw;
+        height: 13vw;
+    }
+
+    /*Четвертый блок*/
+    .yellow {
+        background-color: #FFF4A3;
+        height: 6vw;
+        line-height: 6vw;
+        padding-left: 1vw;
+        font-size: 1.2vw;
+    }
+
+    /*Пятый блок*/
+    .block5 {
+        padding-left: 1vw;
+        padding-right: 1vw;
+
+    }
+    /*Шестой блок*/
+    .block6 {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    /*Панель навигации*/
+    div.all-pages {
+        float: left;
+        width: 15vw;
+        height: 100%;
+        display: block;
+        list-style: none;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: fixed;
+        margin-top: 2vw;
+    }
+    p.article {
+        background-color: rgb(21, 32, 43);
+        margin-block-end: 0;
+        margin-block-start: 0;
+        color: #ffffff;
+        font-size: 1.6vw;
+        padding-top: 1vw;
+        padding-left: 1vw;
+    }
+    .nav {
+        display: flex;
+        background-color: rgb(21, 32, 43);
+        color: #ffffff;
+        font-size: 1vw;
+        text-decoration: none;
+        height: 2vw;
+        line-height: 2vw;
+        width: 14vw;
+        padding-left: 1vw;
+    }
+    .nav:hover {
+        background-color: #1d2a35;
+    }
+    p.now {
+        background-color: #04AA6D;
+        padding-left: 1vw;
+        height: 2vw;
+        line-height: 2vw;
+        font-size: 1vw;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        color: #ffffff;
+    }
+    /*Верхняя панель навигации*/
+    .top-menu {
+        height: 2vw;
+        display: table;
+        width: 100%;
+        background-color: rgb(13, 23, 33);
+        position: fixed;
+    }
+    a.courses {
+        text-decoration: none;
+        height: 2vw;
+        line-height: 2vw;
+        color: #ffffff;
+        font-size: 1vw;
+        float: left;
+        background-color: rgb(13, 23, 33);
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    a.courses-now {
+        text-decoration: none;
+        height: 2vw;
+        line-height: 2vw;
+        color: #ffffff;
+        font-size: 1vw;
+        float: left;
+        background-color: #04AA6D;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    a.courses:hover {
+        background-color: rgb(21, 42, 43);
+    }
+    .example2 {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        background-color: #38444d;
+        border: 0.1vw solid #38444d;
+        border-radius: 0.5vw;
+        height: 23vw;
+    }
+    .lamp {
+        background-color: #ffffff;
+        width: 100%;
+        height: 12vw;
+    }
+    #myImage {
+        width: 5vw;
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        width: 22vw;
+        vertical-align: middle;
+        height: 9vw;
+        padding-top: 1.5vw;
+    }
+    .right-button , .left-button{
+        background-color: #1d2a35;
+        color: #ffffff;
+        font-size: 0.9vw;
+    }
+    #pages1 {
+        margin-top: 1vw;
+    }
+    .block7 {
+        padding-left: 1vw;
+    }
+}
